@@ -1,0 +1,23 @@
+{
+  "name": "automationexercise",
+  "version": "1.0.0",
+  "description": "1. Clone repo:\r    git clone https://github.com/itznieru/automationexercise.git\r    cd automationexercise",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itzNieru/AutomationExercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/itzNieru/AutomationExercise/issues"
+  },
+  "homepage": "https://github.com/itzNieru/AutomationExercise#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.9"
+  }
+}
