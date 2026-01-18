@@ -13,4 +13,3 @@
 
 4. Run tests:
    npx playwright test
-

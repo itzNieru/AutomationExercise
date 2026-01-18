@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "1. Clone repo:\r    git clone https://github.com/itznieru/automationexercise.git\r    cd automationexercise",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "testRun": "npx playwright test tests/simPlan/simPlans/sevenDaysSimPlans.spec.ts --project=chromium --headed --debug"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/itzNieru/AutomationExercise.git"
