@@ -4,7 +4,9 @@
   "description": "1. Clone repo:\r    git clone https://github.com/itznieru/automationexercise.git\r    cd automationexercise",
   "main": "index.js",
   "scripts": {
-    "testRun": "npx playwright test tests/simPlan/simPlans/sevenDaysSimPlans.spec.ts --project=chromium --headed --debug"
+    "chrome": "npx playwright test tests/simPlan/simPlans/sevenDaysSimPlans.spec.ts --project=chromium",
+    "firefox": "npx playwright test tests/simPlan/simPlans/sevenDaysSimPlans.spec.ts --project=firefox",
+    "webkit": "npx playwright test tests/simPlan/simPlans/sevenDaysSimPlans.spec.ts --project=webkit"
   },
   "repository": {
     "type": "git",

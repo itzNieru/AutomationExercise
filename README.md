@@ -11,5 +11,17 @@
 3. Install Playwright browsers:
    npx playwright install
 
-4. Run tests:
-   npx playwright test
+
+## Testing
+1. allbrowser:
+   runs test in all browsers
+
+2. chrome:
+   runs test in chrome
+    
+3. firefox:
+   runs test in firefox
+     
+4. webkit:
+   runs test in safari
+   
